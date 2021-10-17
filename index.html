@@ -1,117 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbers & Fellas</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-</head>
-<body>
-  <nav class="navbar">
-    <ul class="navbar--items d-flex justify-content-center align-items-center">
-      <li class="navbar--item">Inicio</li>
-      <li class="navbar--item">Agendar</li>
-      <li class="navbar--item__before-logo">Barberos</li>
-      <li class="navbar--logo">
-        <img src="./images/logo-header.svg" alt="barbers & fellas">
-      </li>
-      <li class="navbar--item">Productos</li>
-      <li class="navbar--item">Horarios</li>
-      <li class="navbar--item">Nosotros</li>
-    </ul>
-  </nav>
-
-  <main class="container mt-5 main">
-    <div class="row">
-      <div class="col-12">
-        <img class="img-heading my-4 mx-auto" src="./images/head-1.svg" alt="Heading">
-      </div>
-    </div>
-    <section class="row">
-      <aside class="col-2 aside mx-4">
-        <p class="aside--heading__main">Categorías</p>
-        <p class="aside--heading">Barba</p>
-        <ul class="aside--menus">
-          <li class="aside--menus-item">Ceras</li>
-          <li class="aside--menus-item">Peinillas</li>
-          <li class="aside--menus-item">Cuchilla</li>
-        </ul>
-        <p class="aside--heading">Bigote</p>
-        <ul class="aside--menus">
-          <li class="aside--menus-item">Aceite</li>
-          <li class="aside--menus-item">Tijeras</li>
-          <li class="aside--menus-item">Pomada</li>
-        </ul>
-        <p class="aside--heading">Cabello</p>
-        <ul class="aside--menus">
-          <li class="aside--menus-item">Shampoo</li>
-          <li class="aside--menus-item">Acondicionador</li>
-        </ul>
-      </aside>
-      <div class="col-9">
-        <h1 class="main--heading">Productos</h1>
-        <div class="d-flex justify-content-between flex-wrap product">
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-1.png" alt="Product">
-            </div>
-            <p class="product--article-name">Cera Woodsman</p>
-          </article>
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-2.png" alt="Product">
-            </div>
-            <p class="product--article-name">Colonia para barba</p>
-          </article>
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-3.png" alt="Product">
-            </div>
-            <p class="product--article-name">Cepillo para barba</p>
-          </article>
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-4.png" alt="Product">
-            </div>
-            <p class="product--article-name">Cera Reuzel</p>
-          </article>
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-5.png" alt="Product">
-            </div>
-            <p class="product--article-name">Peine para bigote</p>
-          </article>
-          <article class="product--article">
-            <div class="product--article-img">
-              <img src="./images/inv-6.png" alt="Product">
-            </div>
-            <p class="product--article-name">Cuchilla</p>
-          </article>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KXFVK3T");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbers & Fellas</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KXFVK3T"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar">
+      <ul class="navbar--items d-flex justify-content-center align-items-center">
+        <li class="navbar--item">Inicio</li>
+        <li class="navbar--item">Agendar</li>
+        <li class="navbar--item__before-logo">Barberos</li>
+        <li class="navbar--logo">
+          <img src="./images/logo-header.svg" alt="barbers & fellas" />
+        </li>
+        <li class="navbar--item">Productos</li>
+        <li class="navbar--item">Horarios</li>
+        <li class="navbar--item">Nosotros</li>
+      </ul>
+    </nav>
+    <main class="container mt-5 main">
+      <div class="row">
+        <div class="col-12">
+          <img class="img-heading my-4 mx-auto" src="./images/head-1.svg" alt="Heading" />
         </div>
       </div>
-    </section>
-    <div class="row">
-      <div class="col-12">
-        <img class="img-heading my-4 mx-auto" src="./images/head-1.svg" alt="Heading">
+      <section class="row">
+        <aside class="col-2 aside mx-4">
+          <p class="aside--heading__main">Categorías</p>
+          <p class="aside--heading">Barba</p>
+          <ul class="aside--menus">
+            <li class="aside--menus-item">Ceras</li>
+            <li class="aside--menus-item">Peinillas</li>
+            <li class="aside--menus-item">Cuchilla</li>
+          </ul>
+          <p class="aside--heading">Bigote</p>
+          <ul class="aside--menus">
+            <li class="aside--menus-item">Aceite</li>
+            <li class="aside--menus-item">Tijeras</li>
+            <li class="aside--menus-item">Pomada</li>
+          </ul>
+          <p class="aside--heading">Cabello</p>
+          <ul class="aside--menus">
+            <li class="aside--menus-item">Shampoo</li>
+            <li class="aside--menus-item">Acondicionador</li>
+          </ul>
+        </aside>
+        <div class="col-9">
+          <h1 class="main--heading">Productos</h1>
+          <div class="d-flex justify-content-between flex-wrap product">
+            <article id="prodcut-1" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-1.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Cera Woodsman</p>
+            </article>
+            <article id="prodcut-2" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-2.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Colonia para barba</p>
+            </article>
+            <article id="prodcut-3" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-3.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Cepillo para barba</p>
+            </article>
+            <article id="prodcut-4" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-4.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Cera Reuzel</p>
+            </article>
+            <article id="prodcut-5" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-5.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Peine para bigote</p>
+            </article>
+            <article id="prodcut-6" class="product--article">
+              <div class="product--article-img">
+                <img src="./images/inv-6.png" alt="Product" />
+              </div>
+              <p class="product--article-name">Cuchilla</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col-12">
+          <img class="img-heading my-4 mx-auto" src="./images/head-1.svg" alt="Heading" />
+        </div>
       </div>
-    </div>
-    <footer class="row">
-      <div class="col">
-        <ul class="socials d-flex justify-content-center">
-          <li class="socials--items">
-            <img src="./icons/icon-insta.svg" alt="Instagram">
-          </li>
-          <li class="socials--items">
-            <img src="./icons/icon-wp.svg" alt="Whatsapp">
-          </li>
-          <li class="socials--items">
-            <img src="./icons/icon-youtube.svg" alt="YouTube">
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </main>
-</body>
+      <footer class="row">
+        <div class="col">
+          <ul class="socials d-flex justify-content-center">
+            <li class="socials--items">
+              <img src="./icons/icon-insta.svg" alt="Instagram" />
+            </li>
+            <li class="socials--items">
+              <img src="./icons/icon-wp.svg" alt="Whatsapp" />
+            </li>
+            <li class="socials--items">
+              <img src="./icons/icon-youtube.svg" alt="YouTube" />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
