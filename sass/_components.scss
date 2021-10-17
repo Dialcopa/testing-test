@@ -1,0 +1,122 @@
+.navbar {
+    background: $color-secondary;
+
+    &--items {
+        list-style: None;
+        padding: .5em 0;
+        margin: 2em 0;
+    }
+
+    &--item {
+        padding: .4em 2em;
+        font-weight: 600;
+        border-left: 1px solid $color-black;
+
+        &:last-child {
+            border-right: 1px solid $color-black;
+        }
+
+        &__before-logo {
+            @extend .navbar--item;
+            border-right: 1px solid black;
+            margin-right: 20px;
+        }
+    }
+
+    &--logo {
+        width: 150px;        
+        padding: 0 2em;
+        position: relative;
+
+        &  img {
+            position: absolute;
+            transform: translate(-20%, -50%);
+        }
+    }
+}
+
+.main {
+    background: $color-primary;
+    border-radius: 1em;
+
+    &--heading {
+        
+        font-size: 3em;
+        margin: 0 0 .5em;
+}
+}
+
+.aside {
+    background-color: $color-black;
+    color: $color-secondary;
+    border-radius: 1em;
+    text-align: center;
+
+    &--heading {
+        font-size: 1.8em;
+        
+        &::after {
+            content: "";
+            width: 70%;
+            margin: auto;
+            display: block;
+            border-bottom: 2px solid $color-secondary;
+        }
+
+        &__main {
+            @extend .aside--heading;
+        }
+    }
+
+    &--menus {
+        list-style: none;
+        padding: 0;
+
+        &-item {
+            font-size: 1.3em;
+        }
+    }
+}
+
+.img-heading {
+    width: 70%;
+    display: block;
+}
+
+.product {
+    &--article {
+        width: 27%;
+        border-radius: 1em;
+        background: $color-secondary;
+        padding: 1em .5em 0;
+        margin-bottom: 2em;
+
+        &-img {
+            width: 100%;
+            & > img {
+                width: 90%;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        &-name {
+            margin: 0;
+            padding: .5em 1em;
+            background-color: $color-tertiary;
+            color: $color-secondary;
+            text-align: center;
+            border-radius: .5em;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.socials {
+    list-style: none;
+
+    &--items {
+        width: 2.8em;
+        margin: 0 3em;
+    }
+}

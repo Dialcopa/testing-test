@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;600&display=swap");
+.navbar {
+  background: #cbb36d;
+}
+.navbar--items {
+  list-style: None;
+  padding: 0.5em 0;
+  margin: 2em 0;
+}
+.navbar--item, .navbar--item__before-logo {
+  padding: 0.4em 2em;
+  font-weight: 600;
+  border-left: 1px solid black;
+}
+.navbar--item:last-child, .navbar--item__before-logo:last-child {
+  border-right: 1px solid black;
+}
+.navbar--item__before-logo {
+  border-right: 1px solid black;
+  margin-right: 20px;
+}
+.navbar--logo {
+  width: 150px;
+  padding: 0 2em;
+  position: relative;
+}
+.navbar--logo img {
+  position: absolute;
+  -webkit-transform: translate(-20%, -50%);
+          transform: translate(-20%, -50%);
+}
+
+.main {
+  background: #d8c792;
+  border-radius: 1em;
+}
+.main--heading {
+  font-size: 3em;
+  margin: 0 0 0.5em;
+}
+
+.aside {
+  background-color: black;
+  color: #cbb36d;
+  border-radius: 1em;
+  text-align: center;
+}
+.aside--heading, .aside--heading__main {
+  font-size: 1.8em;
+}
+.aside--heading::after, .aside--heading__main::after {
+  content: "";
+  width: 70%;
+  margin: auto;
+  display: block;
+  border-bottom: 2px solid #cbb36d;
+}
+.aside--menus {
+  list-style: none;
+  padding: 0;
+}
+.aside--menus-item {
+  font-size: 1.3em;
+}
+
+.img-heading {
+  width: 70%;
+  display: block;
+}
+
+.product--article {
+  width: 27%;
+  border-radius: 1em;
+  background: #cbb36d;
+  padding: 1em 0.5em 0;
+  margin-bottom: 2em;
+}
+.product--article-img {
+  width: 100%;
+}
+.product--article-img > img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.product--article-name {
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: #3d3621;
+  color: #cbb36d;
+  text-align: center;
+  border-radius: 0.5em;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.socials {
+  list-style: none;
+}
+.socials--items {
+  width: 2.8em;
+  margin: 0 3em;
+}
+
+html {
+  background: black;
+  font-size: 10px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+body {
+  font-size: 1.6em;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;600&display=swap');
+
+@import "variables";
+@import "components";
+
+html {
+  background: $color-black;
+  font-size: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+
+body {
+  font-size: 1.6em;
+  margin: 0;
+}
