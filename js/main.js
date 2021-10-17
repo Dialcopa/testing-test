@@ -9,3 +9,5 @@ const products = [
 ]
 
 console.log( products );
+
+dataLayer.push( products );
